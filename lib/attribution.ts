@@ -1,4 +1,4 @@
-import { labelWallet } from "./labels";
+import { lookup } from "./labels";
 import type { TraceNode } from "./types";
 
 export function findTerminalAttribution(
