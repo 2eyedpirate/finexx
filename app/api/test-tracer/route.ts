@@ -1,8 +1,8 @@
-import { traceWallet } from "@/lib/tracer";
+import { runTrace } from "@/lib/tracer";
 
 export async function GET() {
   try {
-    const result = await traceWallet(
+    const result = await runTrace(
   "TJmmqjb1DK9TTZbQXzRQ2AuA94z4gKAPFh",
   30.716426,
   "2021-03-27"
