@@ -3,7 +3,7 @@ import { getUsdtTransfers } from "@/lib/trongrid";
 export async function GET() {
   try {
     const result = await getUsdtTransfers(
-      "TJmmqjb1DK9TTZbQXzRQ2AuA94z4gKAPFh",
+      "TJmmqjb1DK9TTZbXQzRQ2AuA94z4gKAPFh",
       {
         onlyConfirmed: true,
         limit: 10,
